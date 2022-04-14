@@ -1,0 +1,44 @@
+dart
+Q1
+main()
+{
+    var datetime=new className;
+    const hour =datetime.now();
+    print(hour);
+}
+
+Q2
+abstract class animal{
+void printName();
+void printSound();
+}
+
+
+class dog extends animal{
+void printName()
+{
+    print("Name")
+}
+void printSound();
+{
+    printf("sound")
+}
+}
+
+
+class cat extends animal{};
+
+
+class cow extends animal{};
+
+void main()
+{
+var dog1=new dog();
+ dog1.printSound();
+}
+
+
+
+
+
+
